@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/x-icon" />
+  <!-- Font Poppins from google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <aside class="sidebar" data-sidebar>
+    <div class="sidebar-info">
+      <figure class="avatar-box">
+        <img src="./assets/images/my-avatar.png" alt="My image" width="80" />
+      </figure>
+      <div class="info-content">
+        <h1 class="name" title="Md Nasim Khan">Md Nasim Khan</h1>
+        <p class="title">Full Stack Developer</p>
+      </div>
+      <button class="info_more-btn" data-sidebar-btn>
+        <span>Show Contacts</span>
+        <ion-icon name="chevron-down"></ion-icon>
+      </button>
+    </div>
+
+    <div class="sidebar-info_more">
+
+      <div class="separator"></div>
+
+      <ul class="Contacts-list">
+        <li class="contact-item">
+          <div class="icon-box">
+            <ion-icon name="mail-outline"></ion-icon>
+          </div>
+          <div class="contact-info">
+            <p class="contact-title">Email</p>
+            <a class="contact-link" href="mailto:mdnasimkhan0060@gmail.com">mdnasimkhan0060@gmail.com</a>
+          </div>
+        </li>
+
+        <li class="contact-item">
+          <div class="icon-box">
+            <ion-icon name="phpne-portrait-outline"></ion-icon>
+          </div>
+          <div class="contact-info">
+            <p class="contact-title">Phone</p>
+            <a class="contact-link" href="tel:800000000000">+88 01706602519</a>
+          </div>
+        </li>
+
+        <li class="contact-item">
+          <div class="icon-box">
+            <ion-icon name="calendar-outline"></ion-icon>
+          </div>
+          <div class="contact-info">
+            <p class="contact-title">Birthday</p>
+            <time datetime="2002-02-25">Feb 25th</time>
+          </div>
+        </li>
+
+        <li class="contact-item">
+          <div class="icon-box">
+            <ion-icon name="location-outline"></ion-icon>
+          </div>
+          <div class="contact-info">
+            <p class="contact-title">Location</p>
+            <time datetime="2002-02-25">Dhaka, Bangladesh</time>
+          </div>
+        </li>
+
+      </ul>
+      <div class="separator"></div>
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="https://www.linkedin.com/in/nasim--khan/" class="social-link" title="Linkedin Profile">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li class="social-item">
+          <a href="https://github.com/nasimkhan0030" class="social-link" title="Github Profile">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li class="social-item">
+          <a href="#" class="social-link" title="Twitter Profile">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </aside>
+  <!-- Main Content -->
+  <div class="main-content">
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li class="navbar-item">
+          <button class="navbar-link active" data-nav-link>About</button>
+        </li>
+
+        <li class="navbar-item">
+          <button class="navbar-link " data-nav-link>Resume</button>
+        </li>
+        </li>
+
+        <li class="navbar-item">
+          <button class="navbar-link " data-nav-link>Contact</button>
+        </li>
+
+      </ul>
+    </nav>
+
+    <!-- About -->
+    <article class="about active" data-page="about">
+      <header>
+        <h2 class="h2 article-title">About Me</h2>
+      </header>
+      <section class="about-text">
+        <p>Highly accomplished Software Engineer with over three years of progressive experience
+          in front-end software development. Recognized for expertise in managing and directing
+          cross-functional application , adept at delivering complex features on time . Proficient
+          in JavaScript, Typescript, VueJS, NuxtJS and ReactJS. Demonstrated success in orchestrating
+          technology migrations , driving innovation, and ensuring the highest level of software quality . A
+          forward-thinking,
+          committed to continuous learning and the integration of emerging technologies.</p>
+      </section>
+    </article>
+
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
